@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Pocos", "OrderManagement.Pocos\OrderManagement.Pocos.csproj", "{5B6CD297-FDA4-4697-8B71-FF1124F8C8A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.BusinessLogicLayer", "OrderManagement.BusinessLogicLayer\OrderManagement.BusinessLogicLayer.csproj", "{6ACA0ED3-1A1C-4897-8023-DFC753D544BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.EntityFrameworkDataAccess", "OrderManagement.EntityFrameworkDataAccess\OrderManagement.EntityFrameworkDataAccess.csproj", "{4E77CCF0-6F35-4FAD-95EF-82E9604D1FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.DataAccessLayer", "OrderManagement.DataAccessLayer\OrderManagement.DataAccessLayer.csproj", "{6BEE4155-A693-4076-836B-0EBE8C8B67DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.WebAPI", "OrderManagement.WebAPI\OrderManagement.WebAPI.csproj", "{B04E0006-3EB0-4719-B81B-9590217DEDAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{5B6CD297-FDA4-4697-8B71-FF1124F8C8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B6CD297-FDA4-4697-8B71-FF1124F8C8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B6CD297-FDA4-4697-8B71-FF1124F8C8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACA0ED3-1A1C-4897-8023-DFC753D544BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACA0ED3-1A1C-4897-8023-DFC753D544BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACA0ED3-1A1C-4897-8023-DFC753D544BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACA0ED3-1A1C-4897-8023-DFC753D544BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E77CCF0-6F35-4FAD-95EF-82E9604D1FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E77CCF0-6F35-4FAD-95EF-82E9604D1FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E77CCF0-6F35-4FAD-95EF-82E9604D1FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E77CCF0-6F35-4FAD-95EF-82E9604D1FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEE4155-A693-4076-836B-0EBE8C8B67DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEE4155-A693-4076-836B-0EBE8C8B67DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEE4155-A693-4076-836B-0EBE8C8B67DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEE4155-A693-4076-836B-0EBE8C8B67DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04E0006-3EB0-4719-B81B-9590217DEDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04E0006-3EB0-4719-B81B-9590217DEDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04E0006-3EB0-4719-B81B-9590217DEDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04E0006-3EB0-4719-B81B-9590217DEDAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

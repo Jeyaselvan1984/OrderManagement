@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderManagement.BusinessLogicLayer\OrderManagement.BusinessLogicLayer.csproj" />
+    <ProjectReference Include="..\OrderManagement.DataAccessLayer\OrderManagement.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\OrderManagement.EntityFrameworkDataAccess\OrderManagement.EntityFrameworkDataAccess.csproj" />
+    <ProjectReference Include="..\OrderManagement.Pocos\OrderManagement.Pocos.csproj" />
+  </ItemGroup>
+
+
+</Project>

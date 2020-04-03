@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderManagement.DataAccessLayer\OrderManagement.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\OrderManagement.EntityFrameworkDataAccess\OrderManagement.EntityFrameworkDataAccess.csproj" />
+    <ProjectReference Include="..\OrderManagement.Pocos\OrderManagement.Pocos.csproj" />
+  </ItemGroup>
+
+</Project>
